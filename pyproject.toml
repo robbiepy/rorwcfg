@@ -1,0 +1,32 @@
+[project]
+name = "rorwcfg"
+version = "0.1.0"
+description = "a library that can write readonly or readwrite config files"
+readme = "README.md"
+requires-python = ">=3.5"
+license = {text = "MIT"}
+keywords = ["config", "tool", "util", "readonly", "readwrite"]
+authors = [
+  {name = "Robert Smith"}, 
+  {email = "robbiepy@runbox.com"}
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "Topic :: System :: Filesystems",
+  "Typing :: Typed"
+]
+
+[project.urls]
+homepage = "https://github.com/robbiepy/rorwcfg"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+"rorwcfg" = ["py.typed"]
