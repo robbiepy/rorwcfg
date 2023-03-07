@@ -1,6 +1,6 @@
 [project]
 name = "rorwcfg"
-version = "0.1.0"
+version = "0.1.1"
 description = "a library that can write readonly or readwrite config files"
 readme = "README.md"
 requires-python = ">=3.5"
